@@ -1,4 +1,4 @@
-Este projeto tem o intuito de praticar e desenvolver algumas abilidades na programação front-end criando uma cópia do site da Disney+.
+Este projeto tem o intuito de praticar e desenvolver algumas habilidades na programação front-end criando uma cópia do site da Disney+.
 Sendo uma versão já desatualizada do site, comparada à atual, porém para fins de padronizar com o projeto realizado pelo professor que está conduzindo as aulas.
 
 Neste projeto estou usando algumas versões de pré-processadores, também, desatualizadas para fins de compatibilidade.
