@@ -31,12 +31,20 @@
         display: flex;
         justify-content: space-between;
 
+        @media (max-width: 768px) {
+            padding: 0px 12px 0px 20px;
+        }
+
         &__logo {
 
             margin: 5px;
             max-width: 80px;
             width: 100%;
             transition: opacity .5s ease;
+
+            @media (max-width: 768px) {
+                max-height: 74px;
+            }
 
         }
 
@@ -55,6 +63,16 @@
 
         .button {
             height: 50px;
+
+            @media (max-width: 768px) {
+
+                font-size: 13px;
+                padding: 8px 11px;
+                height: 40px;
+                letter-spacing: 0;
+
+            }
+
         }
 
     }

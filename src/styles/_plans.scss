@@ -11,6 +11,14 @@
         justify-content: space-around;
         list-style: none;
         margin-top: 50px;
+
+        @media (max-width : 768px) {
+            display: block;
+        }
+
+        .button {
+            margin-top: 24px;
+        }
         
         &__item {
             text-align: center;
@@ -26,6 +34,11 @@
 
             img{
                 height: 84px;
+
+                @media (max-width: 768px) {
+                    max-width: 100%;
+                }
+
             }
 
             strong {
